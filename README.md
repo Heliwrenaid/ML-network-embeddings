@@ -30,7 +30,6 @@ In this notebook, we compare different network algorithms considering two factor
 - DeepWalk
 - LINE
 - Node2Vec
-- SDNE
 - Struc2Vec
 
 ### collab_main.ipynb
