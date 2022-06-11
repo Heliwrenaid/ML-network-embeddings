@@ -1,5 +1,3 @@
-# ML-network-embeddings
+#Network Embeddings
 
-1. Krótki opis projektu
-2. How to run?
-3. Zrób opis plików w kolejności Node2vecdemo , emb-alg-evaluation, main , main z pętlą
+This a school project realized for the needs of Machine Learning Course at AGH University of Science and Technology. The main purpose of the project is to examine network data representation with the use of network embeddings.
