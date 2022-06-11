@@ -28,6 +28,12 @@ In this notebook we compare different network algorithms considering two factors
 - SDNE
 - Struc2Vec
 
+### collab_main.ipynb
+
+
+### embedding_length_vs_model_acc.ipynb
+
+
 
 ## How to run
 
@@ -36,18 +42,25 @@ In this notebook we compare different network algorithms considering two factors
 2. Open [Google Colab](https://colab.research.google.com)
 3. Upload _node2vec_demo.ipynb_
 4. Go to Table of contents -> Files and upload _as-rank.caida.peercones-with-IX-short.txt_
-5. To run the code go to Runtme -> Run all
+5. To run the code go to Runtime -> Run all
 
 ### embedding_alg_evaluation.ipynb
 1. Download ZIP with repo content
 2. Open [Google Colab](https://colab.research.google.com)
 3. Upload _embedding_alg_evaluation.ipynb_
 4. Go to Table of contents -> Files and upload _reference.rar_
-5. To run the code go to Runtme -> Run all
+5. To run the code go to Runtime -> Run all
 
 ### collab_main.ipynb
 1. Download ZIP with repo content
 2. Open [Google Colab](https://colab.research.google.com)
 3. Upload _collab_main.ipynb_
 4. Go to Table of contents -> Files and upload _copy.zip_ and _deepwalk_config.py_
-5. To run the code go to Runtme -> Run all
+5. To run the code go to Runtime -> Run all
+
+### embedding_length_vs_model_acc.ipynb
+1. Download ZIP with repo content
+2. Open [Google Colab](https://colab.research.google.com)
+3. Upload _embedding_length_vs_model_acc.ipynb_
+4. Go to Table of contents -> Files and upload _copy.zip_ and _deepwalk_config.py_
+5. To run the code go to Runtime -> Run all
