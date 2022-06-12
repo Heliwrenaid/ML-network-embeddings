@@ -33,11 +33,11 @@ In this notebook, we compare different network algorithms considering two factor
 - SDNE
 - Struc2Vec
 
-### collab_main.ipynb
-This is a simple neural network model using network embeddings created with Node2Vec or DeepWalk (depending on file configuration) for link prediction. To use Node2Vec uncomment line _X_embed = node2vec_get_embeddings(X)_ and comment out _X_embed = deepwalk_get_embeddings(X)_. To use DeepWalk instead reverse the previous steps.
+### link_type_prediction.ipynb
+This is a simple neural network model using network embeddings created with Node2Vec or DeepWalk for prediction of link type between AS systems.
 
 ### embedding_length_vs_model_acc.ipynb
-This file is _collab_main.ipynb_ execution in a loop with different embedding vector sizes for each loop. It is used to examine how embedding vector size impacts link prediction.
+This file is _link_type_prediction.ipynb_ execution in a loop with different embedding vector sizes for each loop. It is used to examine how embedding vector size impacts prediction of link types.
 
 
 ## How to run
@@ -56,16 +56,16 @@ This file is _collab_main.ipynb_ execution in a loop with different embedding ve
 4. Go to Table of contents -> Files and upload _reference.rar_
 5. To run the code go to Runtime -> Run all
 
-### collab_main.ipynb
+### link_type_prediction.ipynb
 1. Download ZIP with repo content
 2. Open [Google Colab](https://colab.research.google.com)
-3. Upload _collab_main.ipynb_
-4. Go to Table of contents -> Files and upload _copy.zip_ and _deepwalk_config.py_
+3. Upload _link_type_prediction.ipynb_
+4. Go to Table of contents -> Files and upload _as-rank.caida.peercones-with-IX.txt_ and _deepwalk_config.py_
 5. To run the code go to Runtime -> Run all
 
 ### embedding_length_vs_model_acc.ipynb
 1. Download ZIP with repo content
 2. Open [Google Colab](https://colab.research.google.com)
 3. Upload _embedding_length_vs_model_acc.ipynb_
-4. Go to Table of contents -> Files and upload _copy.zip_ and _deepwalk_config.py_
+4. Go to Table of contents -> Files and upload _as-rank.caida.peercones-with-IX.txt_ and _deepwalk_config.py_
 5. To run the code go to Runtime -> Run all
